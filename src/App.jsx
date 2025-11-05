@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Features from './components/Features';
 import Workflow from './components/Workflow';
+import AssistantBot from './components/AssistantBot';
 
 function App() {
   return (
@@ -63,6 +64,9 @@ function App() {
           </div>
         </div>
       </footer>
+
+      {/* Floating assistant that follows the cursor and docks when idle */}
+      <AssistantBot />
     </div>
   );
 }
